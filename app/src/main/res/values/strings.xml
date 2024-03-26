@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyViewAndViews</string>
+    <string name="content_text">Banyak keluarga memiliki candaan dan lelucon khas mereka sendiri yang hanya dimengerti oleh anggota keluarga mereka. Humor ini membantu mempererat ikatan emosional di antara mereka.</string>
+    <string name="content_specs_display">Jefta Supraja4</string>
+    <string name="content_specs_size">2110511131</string>
+    <string name="content_specs_battery">Teknik Informatika</string>
+    <string name="stock">Stock hanya 5 buah</string>
+    <string name="specification">Detail</string>
+    <string name="display">Nama</string>
+    <string name="size">NIM</string>
+    <string name="battery">Prodi</string>
+    <string name="seller">Data</string>
+    <string name="my_name">Jefta Supraja</string>
+    <string name="buy">Detail Jadwal Mata Kuliah Semester 6</string>
+    <string name="dummy_value">Keluarga Jefta Supraja</string>
+</resources>

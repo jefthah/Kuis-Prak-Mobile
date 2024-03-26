@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_jadwal_matkul.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Hari Senin -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFE082"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_senin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Senin"
+            android:textColor="#212121"
+            android:textSize="18sp" />
+
+        <!-- Isi jadwal Senin -->
+        <ListView
+            android:id="@+id/list_senin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:paddingTop="8dp" />
+
+    </LinearLayout>
+
+    <!-- Hari Selasa -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B3E5FC"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_selasa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selasa"
+            android:textColor="#212121"
+            android:textSize="18sp" />
+
+        <!-- Isi jadwal Selasa -->
+        <ListView
+            android:id="@+id/list_selasa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:paddingTop="8dp" />
+
+    </LinearLayout>
+
+    <!-- Hari Rabu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFCC80"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_rabu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rabu"
+            android:textColor="#212121"
+            android:textSize="18sp" />
+
+        <!-- Isi jadwal Rabu -->
+        <ListView
+            android:id="@+id/list_rabu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:paddingTop="8dp" />
+
+    </LinearLayout>
+
+    <!-- Hari Kamis -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C5E1A5"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_kamis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kamis"
+            android:textColor="#212121"
+            android:textSize="18sp" />
+
+        <!-- Isi jadwal Kamis -->
+        <ListView
+            android:id="@+id/list_kamis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:paddingTop="8dp" />
+
+    </LinearLayout>
+
+    <!-- Hari Jumat -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFAB91"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_jumat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumat"
+            android:textColor="#212121"
+            android:textSize="18sp" />
+
+        <!-- Isi jadwal Jumat -->
+        <ListView
+            android:id="@+id/list_jumat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:paddingTop="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
